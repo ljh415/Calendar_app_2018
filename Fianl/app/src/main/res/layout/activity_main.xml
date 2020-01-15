@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/baseLayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/dateYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical"
+            android:hint="2018년"
+            android:paddingRight="10dp"/>
+        <TextView
+            android:id="@+id/dateMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical"
+            android:hint="11월"
+            android:paddingRight="10dp"/>
+        <Button
+            android:id="@+id/contextYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="년도"
+            android:paddingRight="10dp"/>
+
+        <Button
+            android:id="@+id/contextMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contextWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주 선택(주간 달력에서 작동)"/>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+
+</LinearLayout>

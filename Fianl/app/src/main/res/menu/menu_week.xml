@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/week1"
+        android:title="첫째 주"/>
+    <item
+        android:id="@+id/week2"
+        android:title="둘째 주"/>
+    <item
+        android:id="@+id/week3"
+        android:title="셋째 주"/>
+    <item
+        android:id="@+id/week4"
+        android:title="넷째 주"/>
+    <item
+        android:id="@+id/week5"
+        android:title="다섯째 주"/>
+    <item
+        android:id="@+id/week6"
+        android:title="여섯째 주"/>
+
+</menu>

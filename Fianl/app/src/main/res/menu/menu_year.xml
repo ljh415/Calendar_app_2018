@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Y2016"
+        android:title="2016년"/>
+    <item
+        android:id="@+id/Y2017"
+        android:title="2017년"/>
+    <item
+        android:id="@+id/Y2018"
+        android:title="2018년"/>
+    <item
+        android:id="@+id/Y2019"
+        android:title="2019년"/>
+    <item
+        android:id="@+id/Y2020"
+        android:title="2020년"/>
+
+</menu>

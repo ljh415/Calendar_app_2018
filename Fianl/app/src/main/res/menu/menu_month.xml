@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/M1"
+        android:title="1월"/>
+    <item
+        android:id="@+id/M2"
+        android:title="2월"/>
+    <item
+        android:id="@+id/M3"
+        android:title="3월"/>
+    <item
+        android:id="@+id/M4"
+        android:title="4월"/>
+    <item
+        android:id="@+id/M5"
+        android:title="5월"/>
+    <item
+        android:id="@+id/M6"
+        android:title="6월"/>
+    <item
+        android:id="@+id/M7"
+        android:title="7월"/>
+    <item
+        android:id="@+id/M8"
+        android:title="8월"/>
+    <item
+        android:id="@+id/M9"
+        android:title="9월"/>
+    <item
+        android:id="@+id/M10"
+        android:title="10월"/>
+    <item
+        android:id="@+id/M11"
+        android:title="11월"/>
+    <item
+        android:id="@+id/M12"
+        android:title="12월"/>
+
+</menu>
